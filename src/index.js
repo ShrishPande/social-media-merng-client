@@ -15,7 +15,7 @@ const authLink = setContext(() => {
 });
 
 const httpLink = new HttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://social-media-merng-server.onrender.com/",
 });
 
 const client = new ApolloClient({
